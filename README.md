@@ -3,7 +3,7 @@
 An end-to-end NLP-based system that processes resumes and intelligently matches them with job descriptions using Word2Vec embeddings and skill boosting.
 
 
-## 🎯 Project Overview
+## Project Overview
 
 This project implements a complete **Resume Analyzer and Job Matcher** as part of the NLP Mini Project. It is divided into two main components:
 
@@ -23,6 +23,3 @@ The system runs as a single integrated pipeline and provides clean, professional
 - Hybrid job matching (Cosine Similarity + Skill Boost)
 - Clean console output with professional summary table
 - Structured JSON outputs for further analysis
-
-
-## 📁 Project Structure
