@@ -1,0 +1,1087 @@
+2026-03-26 14:19:56 | INFO     | ============================================================
+2026-03-26 14:19:56 | INFO     | Starting Resume Processor – 4 file(s)
+2026-03-26 14:19:56 | INFO     | ============================================================
+2026-03-26 14:19:56 | INFO     | ----------------------------------------
+2026-03-26 14:19:56 | INFO     | Processing: sample_resumes/resume1.txt
+2026-03-26 14:19:56 | INFO     | Extracted 741 characters from resume1.txt
+2026-03-26 14:19:56 | INFO     | [TIMER] extract_text_from_file completed in 0.001 s
+2026-03-26 14:20:02 | INFO     | Preprocessing: 124 raw tokens -> 71 clean tokens
+2026-03-26 14:20:02 | INFO     | [TIMER] preprocess completed in 6.480 s
+2026-03-26 14:20:02 | INFO     | Skills found: 25 unique skills
+2026-03-26 14:20:02 | INFO     | [TIMER] count_skills completed in 0.000 s
+2026-03-26 14:20:02 | INFO     | ----------------------------------------
+2026-03-26 14:20:02 | INFO     | Processing: sample_resumes/resume2.txt
+2026-03-26 14:20:02 | INFO     | Extracted 574 characters from resume2.txt
+2026-03-26 14:20:02 | INFO     | [TIMER] extract_text_from_file completed in 0.001 s
+2026-03-26 14:20:02 | INFO     | Preprocessing: 94 raw tokens -> 54 clean tokens
+2026-03-26 14:20:02 | INFO     | [TIMER] preprocess completed in 0.002 s
+2026-03-26 14:20:02 | INFO     | Skills found: 12 unique skills
+2026-03-26 14:20:02 | INFO     | [TIMER] count_skills completed in 0.000 s
+2026-03-26 14:20:02 | INFO     | ----------------------------------------
+2026-03-26 14:20:02 | INFO     | Processing: sample_resumes/empty_resume.txt
+2026-03-26 14:20:02 | WARNING  | File is empty or unreadable: sample_resumes\empty_resume.txt
+2026-03-26 14:20:02 | INFO     | [TIMER] extract_text_from_file completed in 0.001 s
+2026-03-26 14:20:02 | INFO     | ----------------------------------------
+2026-03-26 14:20:02 | INFO     | Processing: sample_resumes/missing.txt
+2026-03-26 14:20:02 | WARNING  | File not found: sample_resumes\missing.txt
+2026-03-26 14:20:02 | INFO     | [TIMER] extract_text_from_file completed in 0.000 s
+2026-03-26 14:20:02 | INFO     | Loading cached Word2Vec model (no meta) from models\word2vec_resume.model
+2026-03-26 14:20:02 | INFO     | [TIMER] get_word2vec_model completed in 0.080 s
+2026-03-26 14:20:02 | INFO     | Top 10 important words computed.
+2026-03-26 14:20:02 | INFO     | [TIMER] top_n_important_words completed in 0.004 s
+2026-03-26 14:20:02 | INFO     | Top 5 words similar to 'data': microservices, javascript, python, aws, linux
+2026-03-26 14:20:02 | INFO     | Top 5 words similar to 'experience': azure, analytical, xyz, javascript, proficient
+2026-03-26 14:20:02 | INFO     | Top 5 words similar to 'learning': git, power, science, strong, tensorflow
+2026-03-26 14:20:02 | INFO     | ============================================================
+2026-03-26 14:20:02 | INFO     | Processing complete in 6.578 s. 2 file(s) OK, 2 skipped.
+2026-03-26 14:20:02 | INFO     | ============================================================
+2026-03-26 14:21:14 | INFO     | ============================================================
+2026-03-26 14:21:14 | INFO     | Starting Resume Processor – 4 file(s)
+2026-03-26 14:21:14 | INFO     | ============================================================
+2026-03-26 14:21:14 | INFO     | ----------------------------------------
+2026-03-26 14:21:14 | INFO     | Processing: sample_resumes/resume1.txt
+2026-03-26 14:21:14 | INFO     | Extracted 741 characters from resume1.txt
+2026-03-26 14:21:14 | INFO     | [TIMER] extract_text_from_file completed in 0.001 s
+2026-03-26 14:21:17 | INFO     | Preprocessing: 124 raw tokens -> 71 clean tokens
+2026-03-26 14:21:17 | INFO     | [TIMER] preprocess completed in 3.035 s
+2026-03-26 14:21:17 | INFO     | Skills found: 25 unique skills
+2026-03-26 14:21:17 | INFO     | [TIMER] count_skills completed in 0.000 s
+2026-03-26 14:21:17 | INFO     | ----------------------------------------
+2026-03-26 14:21:17 | INFO     | Processing: sample_resumes/resume2.txt
+2026-03-26 14:21:17 | INFO     | Extracted 574 characters from resume2.txt
+2026-03-26 14:21:17 | INFO     | [TIMER] extract_text_from_file completed in 0.001 s
+2026-03-26 14:21:17 | INFO     | Preprocessing: 94 raw tokens -> 54 clean tokens
+2026-03-26 14:21:17 | INFO     | [TIMER] preprocess completed in 0.002 s
+2026-03-26 14:21:17 | INFO     | Skills found: 12 unique skills
+2026-03-26 14:21:17 | INFO     | [TIMER] count_skills completed in 0.000 s
+2026-03-26 14:21:17 | INFO     | ----------------------------------------
+2026-03-26 14:21:17 | INFO     | Processing: sample_resumes/empty_resume.txt
+2026-03-26 14:21:17 | WARNING  | File is empty or unreadable: sample_resumes\empty_resume.txt
+2026-03-26 14:21:17 | INFO     | [TIMER] extract_text_from_file completed in 0.001 s
+2026-03-26 14:21:17 | INFO     | ----------------------------------------
+2026-03-26 14:21:17 | INFO     | Processing: sample_resumes/missing.txt
+2026-03-26 14:21:17 | WARNING  | File not found: sample_resumes\missing.txt
+2026-03-26 14:21:17 | INFO     | [TIMER] extract_text_from_file completed in 0.000 s
+2026-03-26 14:21:17 | INFO     | Loading cached Word2Vec model (no meta) from models\word2vec_resume.model
+2026-03-26 14:21:18 | INFO     | [TIMER] get_word2vec_model completed in 0.056 s
+2026-03-26 14:21:18 | INFO     | Top 10 important words computed.
+2026-03-26 14:21:18 | INFO     | [TIMER] top_n_important_words completed in 0.005 s
+2026-03-26 14:21:18 | INFO     | Top 5 words similar to 'data': microservices, javascript, python, aws, linux
+2026-03-26 14:21:18 | INFO     | Top 5 words similar to 'experience': azure, analytical, xyz, javascript, proficient
+2026-03-26 14:21:18 | INFO     | Top 5 words similar to 'learning': git, power, science, strong, tensorflow
+2026-03-26 14:21:18 | INFO     | ============================================================
+2026-03-26 14:21:18 | INFO     | Processing complete in 3.109 s. 2 file(s) OK, 2 skipped.
+2026-03-26 14:21:18 | INFO     | ============================================================
+2026-03-26 14:21:33 | INFO     | ============================================================
+2026-03-26 14:21:33 | INFO     | Starting Resume Processor – 2 file(s)
+2026-03-26 14:21:33 | INFO     | ============================================================
+2026-03-26 14:21:33 | INFO     | ----------------------------------------
+2026-03-26 14:21:33 | INFO     | Processing: sample_resumes/resume1.txt
+2026-03-26 14:21:33 | INFO     | Extracted 741 characters from resume1.txt
+2026-03-26 14:21:33 | INFO     | [TIMER] extract_text_from_file completed in 0.001 s
+2026-03-26 14:21:36 | INFO     | Preprocessing: 124 raw tokens -> 71 clean tokens
+2026-03-26 14:21:36 | INFO     | [TIMER] preprocess completed in 3.725 s
+2026-03-26 14:21:36 | INFO     | Skills found: 25 unique skills
+2026-03-26 14:21:36 | INFO     | [TIMER] count_skills completed in 0.000 s
+2026-03-26 14:21:36 | INFO     | ----------------------------------------
+2026-03-26 14:21:36 | INFO     | Processing: sample_resumes/resume2.txt
+2026-03-26 14:21:36 | INFO     | Extracted 574 characters from resume2.txt
+2026-03-26 14:21:36 | INFO     | [TIMER] extract_text_from_file completed in 0.000 s
+2026-03-26 14:21:36 | INFO     | Preprocessing: 94 raw tokens -> 54 clean tokens
+2026-03-26 14:21:36 | INFO     | [TIMER] preprocess completed in 0.001 s
+2026-03-26 14:21:36 | INFO     | Skills found: 12 unique skills
+2026-03-26 14:21:36 | INFO     | [TIMER] count_skills completed in 0.000 s
+2026-03-26 14:21:36 | INFO     | Training new Word2Vec model (2 sentences) …
+2026-03-26 14:21:36 | INFO     | Word2Vec model saved to models\word2vec_resume.model
+2026-03-26 14:21:36 | INFO     | [TIMER] get_word2vec_model completed in 0.071 s
+2026-03-26 14:21:36 | INFO     | Top 10 important words computed.
+2026-03-26 14:21:36 | INFO     | [TIMER] top_n_important_words completed in 0.004 s
+2026-03-26 14:21:36 | INFO     | Top 5 words similar to 'data': microservices, javascript, python, aws, linux
+2026-03-26 14:21:36 | INFO     | Top 5 words similar to 'experience': azure, analytical, xyz, javascript, proficient
+2026-03-26 14:21:36 | INFO     | Top 5 words similar to 'learning': git, power, science, strong, tensorflow
+2026-03-26 14:21:36 | INFO     | ============================================================
+2026-03-26 14:21:36 | INFO     | Processing complete in 3.805 s. 2 file(s) OK, 0 skipped.
+2026-03-26 14:21:36 | INFO     | ============================================================
+2026-03-26 14:21:49 | INFO     | ============================================================
+2026-03-26 14:21:49 | INFO     | Starting Resume Processor – 4 file(s)
+2026-03-26 14:21:49 | INFO     | ============================================================
+2026-03-26 14:21:49 | INFO     | ----------------------------------------
+2026-03-26 14:21:49 | INFO     | Processing: sample_resumes/resume1.txt
+2026-03-26 14:21:49 | INFO     | Extracted 741 characters from resume1.txt
+2026-03-26 14:21:49 | INFO     | [TIMER] extract_text_from_file completed in 0.000 s
+2026-03-26 14:21:52 | INFO     | Preprocessing: 124 raw tokens -> 71 clean tokens
+2026-03-26 14:21:52 | INFO     | [TIMER] preprocess completed in 2.863 s
+2026-03-26 14:21:52 | INFO     | Skills found: 25 unique skills
+2026-03-26 14:21:52 | INFO     | [TIMER] count_skills completed in 0.000 s
+2026-03-26 14:21:52 | INFO     | ----------------------------------------
+2026-03-26 14:21:52 | INFO     | Processing: sample_resumes/resume2.txt
+2026-03-26 14:21:52 | INFO     | Extracted 574 characters from resume2.txt
+2026-03-26 14:21:52 | INFO     | [TIMER] extract_text_from_file completed in 0.000 s
+2026-03-26 14:21:52 | INFO     | Preprocessing: 94 raw tokens -> 54 clean tokens
+2026-03-26 14:21:52 | INFO     | [TIMER] preprocess completed in 0.001 s
+2026-03-26 14:21:52 | INFO     | Skills found: 12 unique skills
+2026-03-26 14:21:52 | INFO     | [TIMER] count_skills completed in 0.000 s
+2026-03-26 14:21:52 | INFO     | ----------------------------------------
+2026-03-26 14:21:52 | INFO     | Processing: sample_resumes/empty_resume.txt
+2026-03-26 14:21:52 | WARNING  | File is empty or unreadable: sample_resumes\empty_resume.txt
+2026-03-26 14:21:52 | INFO     | [TIMER] extract_text_from_file completed in 0.000 s
+2026-03-26 14:21:52 | INFO     | ----------------------------------------
+2026-03-26 14:21:52 | INFO     | Processing: sample_resumes/missing.txt
+2026-03-26 14:21:52 | WARNING  | File not found: sample_resumes\missing.txt
+2026-03-26 14:21:52 | INFO     | [TIMER] extract_text_from_file completed in 0.000 s
+2026-03-26 14:21:52 | INFO     | Data unchanged – loading cached Word2Vec model from models\word2vec_resume.model
+2026-03-26 14:21:52 | INFO     | [TIMER] get_word2vec_model completed in 0.051 s
+2026-03-26 14:21:52 | INFO     | Top 10 important words computed.
+2026-03-26 14:21:52 | INFO     | [TIMER] top_n_important_words completed in 0.005 s
+2026-03-26 14:21:52 | INFO     | Top 5 words similar to 'data': microservices, javascript, python, aws, linux
+2026-03-26 14:21:52 | INFO     | Top 5 words similar to 'experience': azure, analytical, xyz, javascript, proficient
+2026-03-26 14:21:52 | INFO     | Top 5 words similar to 'learning': git, power, science, strong, tensorflow
+2026-03-26 14:21:52 | INFO     | ============================================================
+2026-03-26 14:21:52 | INFO     | Processing complete in 2.927 s. 2 file(s) OK, 2 skipped.
+2026-03-26 14:21:52 | INFO     | ============================================================
+2026-03-26 14:26:07 | INFO     | ============================================================
+2026-03-26 14:26:07 | INFO     | Starting Resume Processor – 5 file(s)
+2026-03-26 14:26:07 | INFO     | ============================================================
+2026-03-26 14:26:07 | INFO     | ----------------------------------------
+2026-03-26 14:26:07 | INFO     | Processing: sample_resumes/resume1.txt
+2026-03-26 14:26:07 | INFO     | Extracted 741 characters from resume1.txt
+2026-03-26 14:26:07 | INFO     | [TIMER] extract_text_from_file completed in 0.001 s
+2026-03-26 14:26:11 | INFO     | Preprocessing: 124 raw tokens -> 71 clean tokens
+2026-03-26 14:26:11 | INFO     | [TIMER] preprocess completed in 3.360 s
+2026-03-26 14:26:11 | INFO     | Skills found: 25 unique skills
+2026-03-26 14:26:11 | INFO     | [TIMER] count_skills completed in 0.000 s
+2026-03-26 14:26:11 | INFO     | ----------------------------------------
+2026-03-26 14:26:11 | INFO     | Processing: sample_resumes/resume2.txt
+2026-03-26 14:26:11 | INFO     | Extracted 574 characters from resume2.txt
+2026-03-26 14:26:11 | INFO     | [TIMER] extract_text_from_file completed in 0.001 s
+2026-03-26 14:26:11 | INFO     | Preprocessing: 94 raw tokens -> 54 clean tokens
+2026-03-26 14:26:11 | INFO     | [TIMER] preprocess completed in 0.002 s
+2026-03-26 14:26:11 | INFO     | Skills found: 12 unique skills
+2026-03-26 14:26:11 | INFO     | [TIMER] count_skills completed in 0.000 s
+2026-03-26 14:26:11 | INFO     | ----------------------------------------
+2026-03-26 14:26:11 | INFO     | Processing: sample_resumes/resume3.pdf
+2026-03-26 14:26:11 | INFO     | Extracted 1566 characters from resume3.pdf
+2026-03-26 14:26:11 | INFO     | [TIMER] extract_text_from_file completed in 0.413 s
+2026-03-26 14:26:11 | INFO     | Preprocessing: 265 raw tokens -> 144 clean tokens
+2026-03-26 14:26:11 | INFO     | [TIMER] preprocess completed in 0.003 s
+2026-03-26 14:26:11 | INFO     | Skills found: 35 unique skills
+2026-03-26 14:26:11 | INFO     | [TIMER] count_skills completed in 0.000 s
+2026-03-26 14:26:11 | INFO     | ----------------------------------------
+2026-03-26 14:26:11 | INFO     | Processing: sample_resumes/empty_resume.txt
+2026-03-26 14:26:11 | WARNING  | File is empty or unreadable: sample_resumes\empty_resume.txt
+2026-03-26 14:26:11 | INFO     | [TIMER] extract_text_from_file completed in 0.001 s
+2026-03-26 14:26:11 | INFO     | ----------------------------------------
+2026-03-26 14:26:11 | INFO     | Processing: sample_resumes/missing.txt
+2026-03-26 14:26:11 | WARNING  | File not found: sample_resumes\missing.txt
+2026-03-26 14:26:11 | INFO     | [TIMER] extract_text_from_file completed in 0.000 s
+2026-03-26 14:26:11 | INFO     | Training data changed – retraining Word2Vec model.
+2026-03-26 14:26:11 | INFO     | Training new Word2Vec model (3 sentences) …
+2026-03-26 14:26:11 | INFO     | Word2Vec model saved to models\word2vec_resume.model
+2026-03-26 14:26:11 | INFO     | [TIMER] get_word2vec_model completed in 0.085 s
+2026-03-26 14:26:11 | INFO     | Top 10 important words computed.
+2026-03-26 14:26:11 | INFO     | [TIMER] top_n_important_words completed in 0.006 s
+2026-03-26 14:26:11 | INFO     | Top 5 words similar to 'data': mit, terraform, frontend, react, cloud
+2026-03-26 14:26:11 | INFO     | Top 5 words similar to 'experience': knowledge, processing, postgresql, model, technical
+2026-03-26 14:26:11 | INFO     | Top 5 words similar to 'using': expert, natural, soft, abc, skill
+2026-03-26 14:26:11 | INFO     | ============================================================
+2026-03-26 14:26:11 | INFO     | Processing complete in 3.882 s. 3 file(s) OK, 2 skipped.
+2026-03-26 14:26:11 | INFO     | ============================================================
+2026-03-26 14:31:02 | INFO     | ============================================================
+2026-03-26 14:31:02 | INFO     | Starting Resume Processor – 5 file(s)
+2026-03-26 14:31:02 | INFO     | ============================================================
+2026-03-26 14:31:02 | INFO     | ----------------------------------------
+2026-03-26 14:31:02 | INFO     | Processing: sample_resumes/resume1.txt
+2026-03-26 14:31:02 | INFO     | Extracted 741 characters from resume1.txt
+2026-03-26 14:31:02 | INFO     | [TIMER] extract_text_from_file completed in 0.001 s
+2026-03-26 14:31:02 | INFO     | clean_text: 711 chars -> 602 chars
+2026-03-26 14:31:05 | INFO     | Preprocessing: 72 tokens -> 72 lemmatised tokens
+2026-03-26 14:31:05 | INFO     | [TIMER] preprocess completed in 2.800 s
+2026-03-26 14:31:05 | INFO     | Skills found: 25 unique skills
+2026-03-26 14:31:05 | INFO     | [TIMER] count_skills completed in 0.000 s
+2026-03-26 14:31:05 | INFO     | ----------------------------------------
+2026-03-26 14:31:05 | INFO     | Processing: sample_resumes/resume2.txt
+2026-03-26 14:31:05 | INFO     | Extracted 574 characters from resume2.txt
+2026-03-26 14:31:05 | INFO     | [TIMER] extract_text_from_file completed in 0.001 s
+2026-03-26 14:31:05 | INFO     | clean_text: 550 chars -> 464 chars
+2026-03-26 14:31:05 | INFO     | Preprocessing: 54 tokens -> 54 lemmatised tokens
+2026-03-26 14:31:05 | INFO     | [TIMER] preprocess completed in 0.001 s
+2026-03-26 14:31:05 | INFO     | Skills found: 12 unique skills
+2026-03-26 14:31:05 | INFO     | [TIMER] count_skills completed in 0.000 s
+2026-03-26 14:31:05 | INFO     | ----------------------------------------
+2026-03-26 14:31:05 | INFO     | Processing: sample_resumes/resume3.pdf
+2026-03-26 14:31:05 | INFO     | Extracted 1566 characters from resume3.pdf
+2026-03-26 14:31:05 | INFO     | [TIMER] extract_text_from_file completed in 0.070 s
+2026-03-26 14:31:05 | INFO     | clean_text: 1441 chars -> 1316 chars
+2026-03-26 14:31:05 | INFO     | Preprocessing: 167 tokens -> 167 lemmatised tokens
+2026-03-26 14:31:05 | INFO     | [TIMER] preprocess completed in 0.004 s
+2026-03-26 14:31:05 | INFO     | Skills found: 35 unique skills
+2026-03-26 14:31:05 | INFO     | [TIMER] count_skills completed in 0.000 s
+2026-03-26 14:31:05 | INFO     | ----------------------------------------
+2026-03-26 14:31:05 | INFO     | Processing: sample_resumes/empty_resume.txt
+2026-03-26 14:31:05 | WARNING  | File is empty or unreadable: sample_resumes\empty_resume.txt
+2026-03-26 14:31:05 | INFO     | [TIMER] extract_text_from_file completed in 0.001 s
+2026-03-26 14:31:05 | INFO     | ----------------------------------------
+2026-03-26 14:31:05 | INFO     | Processing: sample_resumes/missing.txt
+2026-03-26 14:31:05 | WARNING  | File not found: sample_resumes\missing.txt
+2026-03-26 14:31:05 | INFO     | [TIMER] extract_text_from_file completed in 0.000 s
+2026-03-26 14:31:05 | INFO     | Training data changed – retraining Word2Vec model.
+2026-03-26 14:31:05 | INFO     | Training new Word2Vec model (3 sentences) …
+2026-03-26 14:31:05 | INFO     | Word2Vec model saved to models\word2vec_resume.model
+2026-03-26 14:31:05 | INFO     | [TIMER] get_word2vec_model completed in 0.096 s
+2026-03-26 14:31:05 | INFO     | Top 10 important words computed.
+2026-03-26 14:31:05 | INFO     | [TIMER] top_n_important_words completed in 0.005 s
+2026-03-26 14:31:05 | INFO     | Top 5 words similar to 'data': leading, real, platform, react, pipeline
+2026-03-26 14:31:05 | INFO     | Top 5 words similar to 'experience': predictive, processing, postgresql, git, techcorp
+2026-03-26 14:31:05 | INFO     | Top 5 words similar to 'using': management, architect, expert, cross, cs
+2026-03-26 14:31:05 | INFO     | ============================================================
+2026-03-26 14:31:05 | INFO     | Processing complete in 2.986 s. 3 file(s) OK, 2 skipped.
+2026-03-26 14:31:05 | INFO     | ============================================================
+2026-03-26 14:58:07 | INFO     | ============================================================
+2026-03-26 14:58:07 | INFO     | Starting Resume Processor – 2 file(s)
+2026-03-26 14:58:07 | INFO     | ============================================================
+2026-03-26 14:58:07 | INFO     | ----------------------------------------
+2026-03-26 14:58:07 | INFO     | Processing: resume\my_resume.pdf
+2026-03-26 14:58:07 | INFO     | Extracted 1566 characters from my_resume.pdf
+2026-03-26 14:58:07 | INFO     | [TIMER] extract_text_from_file completed in 0.070 s
+2026-03-26 14:58:07 | INFO     | clean_text: 1441 chars -> 1316 chars
+2026-03-26 14:58:11 | INFO     | Preprocessing: 167 tokens -> 167 lemmatised tokens
+2026-03-26 14:58:11 | INFO     | [TIMER] preprocess completed in 3.354 s
+2026-03-26 14:58:11 | INFO     | Skills found: 35 unique skills
+2026-03-26 14:58:11 | INFO     | [TIMER] count_skills completed in 0.000 s
+2026-03-26 14:58:11 | INFO     | ----------------------------------------
+2026-03-26 14:58:11 | INFO     | Processing: resume\my_resume.txt
+2026-03-26 14:58:11 | INFO     | Extracted 741 characters from my_resume.txt
+2026-03-26 14:58:11 | INFO     | [TIMER] extract_text_from_file completed in 0.001 s
+2026-03-26 14:58:11 | INFO     | clean_text: 711 chars -> 602 chars
+2026-03-26 14:58:11 | INFO     | Preprocessing: 72 tokens -> 72 lemmatised tokens
+2026-03-26 14:58:11 | INFO     | [TIMER] preprocess completed in 0.005 s
+2026-03-26 14:58:11 | INFO     | Skills found: 25 unique skills
+2026-03-26 14:58:11 | INFO     | [TIMER] count_skills completed in 0.000 s
+2026-03-26 14:58:11 | INFO     | Training data changed – retraining Word2Vec model.
+2026-03-26 14:58:11 | INFO     | Training new Word2Vec model (2 sentences) …
+2026-03-26 14:58:11 | INFO     | Word2Vec model saved to models\word2vec_resume.model
+2026-03-26 14:58:11 | INFO     | [TIMER] get_word2vec_model completed in 0.092 s
+2026-03-26 14:58:11 | INFO     | Top 10 important words computed.
+2026-03-26 14:58:11 | INFO     | [TIMER] top_n_important_words completed in 0.005 s
+2026-03-26 14:58:11 | INFO     | Top 5 words similar to 'using': deployment, interactive, cd, skill, mongodb
+2026-03-26 14:58:11 | INFO     | Top 5 words similar to 'learning': deployed, angular, cs, scalable, docker
+2026-03-26 14:58:11 | INFO     | Top 5 words similar to 'development': ci, year, system, versatile, record
+2026-03-26 14:58:11 | INFO     | ============================================================
+2026-03-26 14:58:11 | INFO     | Processing complete in 3.533 s. 2 file(s) OK, 0 skipped.
+2026-03-26 14:58:11 | INFO     | ============================================================
+2026-03-26 15:00:01 | INFO     | ============================================================
+2026-03-26 15:00:01 | INFO     | Starting Resume Processor – 3 file(s)
+2026-03-26 15:00:01 | INFO     | ============================================================
+2026-03-26 15:00:01 | INFO     | ----------------------------------------
+2026-03-26 15:00:01 | INFO     | Processing: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-26 15:00:02 | INFO     | Extracted 4990 characters from Abaidullah Seikh_Data Analyst.pdf
+2026-03-26 15:00:02 | INFO     | [TIMER] extract_text_from_file completed in 0.106 s
+2026-03-26 15:00:02 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-26 15:00:05 | INFO     | Preprocessing: 511 tokens -> 511 lemmatised tokens
+2026-03-26 15:00:05 | INFO     | [TIMER] preprocess completed in 3.018 s
+2026-03-26 15:00:05 | INFO     | Skills found: 16 unique skills
+2026-03-26 15:00:05 | INFO     | [TIMER] count_skills completed in 0.001 s
+2026-03-26 15:00:05 | INFO     | ----------------------------------------
+2026-03-26 15:00:05 | INFO     | Processing: resume\resume1.txt
+2026-03-26 15:00:05 | INFO     | Extracted 741 characters from resume1.txt
+2026-03-26 15:00:05 | INFO     | [TIMER] extract_text_from_file completed in 0.001 s
+2026-03-26 15:00:05 | INFO     | clean_text: 711 chars -> 602 chars
+2026-03-26 15:00:05 | INFO     | Preprocessing: 72 tokens -> 72 lemmatised tokens
+2026-03-26 15:00:05 | INFO     | [TIMER] preprocess completed in 0.002 s
+2026-03-26 15:00:05 | INFO     | Skills found: 25 unique skills
+2026-03-26 15:00:05 | INFO     | [TIMER] count_skills completed in 0.000 s
+2026-03-26 15:00:05 | INFO     | ----------------------------------------
+2026-03-26 15:00:05 | INFO     | Processing: resume\resume3.pdf
+2026-03-26 15:00:05 | INFO     | Extracted 1566 characters from resume3.pdf
+2026-03-26 15:00:05 | INFO     | [TIMER] extract_text_from_file completed in 0.011 s
+2026-03-26 15:00:05 | INFO     | clean_text: 1441 chars -> 1316 chars
+2026-03-26 15:00:05 | INFO     | Preprocessing: 167 tokens -> 167 lemmatised tokens
+2026-03-26 15:00:05 | INFO     | [TIMER] preprocess completed in 0.006 s
+2026-03-26 15:00:05 | INFO     | Skills found: 35 unique skills
+2026-03-26 15:00:05 | INFO     | [TIMER] count_skills completed in 0.000 s
+2026-03-26 15:00:05 | INFO     | Training data changed – retraining Word2Vec model.
+2026-03-26 15:00:05 | INFO     | Training new Word2Vec model (3 sentences) …
+2026-03-26 15:00:05 | INFO     | Word2Vec model saved to models\word2vec_resume.model
+2026-03-26 15:00:05 | INFO     | [TIMER] get_word2vec_model completed in 0.090 s
+2026-03-26 15:00:05 | INFO     | Top 10 important words computed.
+2026-03-26 15:00:05 | INFO     | [TIMER] top_n_important_words completed in 0.007 s
+2026-03-26 15:00:05 | INFO     | Top 5 words similar to 'data': envel, framework, engine, sarah, processing
+2026-03-26 15:00:05 | INFO     | Top 5 words similar to 'using': covering, optimization, optimized, sciencesep, natural
+2026-03-26 15:00:05 | INFO     | Top 5 words similar to 'python': application, mar, webslice, systemoct, java
+2026-03-26 15:00:05 | INFO     | ============================================================
+2026-03-26 15:00:05 | INFO     | Processing complete in 3.247 s. 3 file(s) OK, 0 skipped.
+2026-03-26 15:00:05 | INFO     | ============================================================
+2026-03-26 15:16:14 | INFO     | ============================================================
+2026-03-26 15:16:14 | INFO     | Starting Resume Processor – 1 file(s)
+2026-03-26 15:16:14 | INFO     | ============================================================
+2026-03-26 15:16:14 | INFO     | ----------------------------------------
+2026-03-26 15:16:14 | INFO     | Processing: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-26 15:16:15 | INFO     | Extracted 4990 characters from Abaidullah Seikh_Data Analyst.pdf
+2026-03-26 15:16:15 | INFO     | [TIMER] extract_text_from_file completed in 0.211 s
+2026-03-26 15:16:15 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-26 15:16:18 | INFO     | Preprocessing: 511 tokens -> 511 lemmatised tokens
+2026-03-26 15:16:18 | INFO     | [TIMER] preprocess completed in 3.653 s
+2026-03-26 15:16:18 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-26 15:16:18 | INFO     | Skills found: 16 unique skills
+2026-03-26 15:16:18 | INFO     | [TIMER] count_skills completed in 0.001 s
+2026-03-26 15:16:18 | INFO     | Training data changed – retraining Word2Vec model.
+2026-03-26 15:16:18 | INFO     | Training new Word2Vec model (1 sentences) …
+2026-03-26 15:16:18 | INFO     | Word2Vec model saved to models\word2vec_resume.model
+2026-03-26 15:16:18 | INFO     | [TIMER] get_word2vec_model completed in 0.271 s
+2026-03-26 15:16:18 | INFO     | Resume vector computed from 511 / 511 tokens.
+2026-03-26 15:16:18 | INFO     | Top 10 important words computed.
+2026-03-26 15:16:18 | INFO     | [TIMER] top_n_important_words completed in 0.007 s
+2026-03-26 15:16:18 | INFO     | Top 5 words similar to 'data': end, gossip, built, mongodb, based
+2026-03-26 15:16:18 | INFO     | Top 5 words similar to 'business': competitor, com, proficient, collaboration, university
+2026-03-26 15:16:18 | INFO     | Top 5 words similar to 'analysis': html, git, soft, training, july
+2026-03-26 15:16:18 | INFO     | ============================================================
+2026-03-26 15:16:18 | INFO     | Processing complete in 4.151 s. 1 file(s) OK, 0 skipped.
+2026-03-26 15:16:18 | INFO     | ============================================================
+2026-03-26 15:42:01 | INFO     | ============================================================
+2026-03-26 15:42:01 | INFO     | Starting Resume Processor – 1 file(s)
+2026-03-26 15:42:01 | INFO     | ============================================================
+2026-03-26 15:42:01 | INFO     | ----------------------------------------
+2026-03-26 15:42:01 | INFO     | Processing: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-26 15:42:01 | INFO     | Extracted 4990 characters from Abaidullah Seikh_Data Analyst.pdf
+2026-03-26 15:42:01 | INFO     | [TIMER] extract_text_from_file completed in 0.196 s
+2026-03-26 15:42:01 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-26 15:42:05 | INFO     | Preprocessing: 511 tokens -> 511 lemmatised tokens
+2026-03-26 15:42:05 | INFO     | [TIMER] preprocess completed in 3.462 s
+2026-03-26 15:42:05 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-26 15:42:05 | INFO     | Skills found: 16 unique skills
+2026-03-26 15:42:05 | INFO     | [TIMER] count_skills completed in 0.001 s
+2026-03-26 15:42:05 | INFO     | Data unchanged – loading cached Word2Vec model from models\word2vec_resume.model
+2026-03-26 15:42:05 | INFO     | [TIMER] get_word2vec_model completed in 0.065 s
+2026-03-26 15:42:05 | INFO     | Resume vector computed from 511 / 511 tokens.
+2026-03-26 15:42:05 | INFO     | Top 10 important words computed.
+2026-03-26 15:42:05 | INFO     | [TIMER] top_n_important_words completed in 0.004 s
+2026-03-26 15:42:05 | INFO     | Top 5 words similar to 'data': end, gossip, built, mongodb, based
+2026-03-26 15:42:05 | INFO     | Top 5 words similar to 'business': competitor, com, proficient, collaboration, university
+2026-03-26 15:42:05 | INFO     | Top 5 words similar to 'analysis': html, git, soft, training, july
+2026-03-26 15:42:05 | INFO     | ============================================================
+2026-03-26 15:42:05 | INFO     | Processing complete in 3.752 s. 1 file(s) OK, 0 skipped.
+2026-03-26 15:42:05 | INFO     | ============================================================
+2026-03-26 15:45:58 | INFO     | ============================================================
+2026-03-26 15:45:58 | INFO     | Starting Resume Processor – 1 file(s)
+2026-03-26 15:45:58 | INFO     | ============================================================
+2026-03-26 15:45:58 | INFO     | ----------------------------------------
+2026-03-26 15:45:58 | INFO     | Processing: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-26 15:45:58 | INFO     | Extracted 4990 characters from Abaidullah Seikh_Data Analyst.pdf
+2026-03-26 15:45:58 | INFO     | [TIMER] extract_text_from_file completed in 0.111 s
+2026-03-26 15:45:58 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-26 15:46:01 | INFO     | Preprocessing: 511 tokens -> 511 lemmatised tokens
+2026-03-26 15:46:01 | INFO     | [TIMER] preprocess completed in 3.512 s
+2026-03-26 15:46:01 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-26 15:46:01 | INFO     | Skills found: 16 unique skills
+2026-03-26 15:46:01 | INFO     | [TIMER] count_skills completed in 0.001 s
+2026-03-26 15:46:01 | INFO     | Data unchanged – loading cached Word2Vec model from models\word2vec_resume.model
+2026-03-26 15:46:01 | INFO     | [TIMER] get_word2vec_model completed in 0.097 s
+2026-03-26 15:46:01 | INFO     | Resume vector computed from 511 / 511 tokens.
+2026-03-26 15:46:01 | INFO     | Top 10 important words computed.
+2026-03-26 15:46:01 | INFO     | [TIMER] top_n_important_words completed in 0.006 s
+2026-03-26 15:46:01 | INFO     | Top 5 words similar to 'data': end, gossip, built, mongodb, based
+2026-03-26 15:46:01 | INFO     | Top 5 words similar to 'business': competitor, com, proficient, collaboration, university
+2026-03-26 15:46:01 | INFO     | Top 5 words similar to 'analysis': html, git, soft, training, july
+2026-03-26 15:46:01 | INFO     | ============================================================
+2026-03-26 15:46:01 | INFO     | Processing complete in 3.739 s. 1 file(s) OK, 0 skipped.
+2026-03-26 15:46:01 | INFO     | ============================================================
+2026-03-26 15:53:57 | INFO     | ============================================================
+2026-03-26 15:53:57 | INFO     | Starting Resume Processor – 1 file(s)
+2026-03-26 15:53:57 | INFO     | ============================================================
+2026-03-26 15:53:57 | INFO     | ----------------------------------------
+2026-03-26 15:53:57 | INFO     | Processing: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-26 15:53:57 | INFO     | Extracted 4990 characters from Abaidullah Seikh_Data Analyst.pdf
+2026-03-26 15:53:57 | INFO     | [TIMER] extract_text_from_file completed in 0.295 s
+2026-03-26 15:53:57 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-26 15:54:04 | INFO     | Preprocessing: 511 tokens -> 511 lemmatised tokens
+2026-03-26 15:54:04 | INFO     | [TIMER] preprocess completed in 6.285 s
+2026-03-26 15:54:04 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-26 15:54:04 | INFO     | Skills found: 16 unique skills
+2026-03-26 15:54:04 | INFO     | [TIMER] count_skills completed in 0.000 s
+2026-03-26 15:54:04 | INFO     | Data unchanged – loading cached Word2Vec model from models\word2vec_resume.model
+2026-03-26 15:54:04 | INFO     | [TIMER] get_word2vec_model completed in 0.063 s
+2026-03-26 15:54:04 | INFO     | Resume vector computed from 511 / 511 tokens.
+2026-03-26 15:54:04 | INFO     | Top 10 important words computed.
+2026-03-26 15:54:04 | INFO     | [TIMER] top_n_important_words completed in 0.005 s
+2026-03-26 15:54:04 | INFO     | Top 5 words similar to 'data': end, gossip, built, mongodb, based
+2026-03-26 15:54:04 | INFO     | Top 5 words similar to 'business': competitor, com, proficient, collaboration, university
+2026-03-26 15:54:04 | INFO     | Top 5 words similar to 'analysis': html, git, soft, training, july
+2026-03-26 15:54:04 | INFO     | ============================================================
+2026-03-26 15:54:04 | INFO     | Processing complete in 6.696 s. 1 file(s) OK, 0 skipped.
+2026-03-26 15:54:04 | INFO     | ============================================================
+2026-03-26 16:24:23 | INFO     | ============================================================
+2026-03-26 16:24:23 | INFO     | Starting Resume Processor – 1 file(s)
+2026-03-26 16:24:23 | INFO     | ============================================================
+2026-03-26 16:24:23 | INFO     | ----------------------------------------
+2026-03-26 16:24:23 | INFO     | Processing: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-26 16:24:23 | INFO     | Extracted 4990 characters from Abaidullah Seikh_Data Analyst.pdf
+2026-03-26 16:24:23 | INFO     | [TIMER] extract_text_from_file completed in 0.235 s
+2026-03-26 16:24:23 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-26 16:24:26 | INFO     | Preprocessing: 511 tokens -> 511 lemmatised tokens
+2026-03-26 16:24:26 | INFO     | [TIMER] preprocess completed in 3.119 s
+2026-03-26 16:24:26 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-26 16:24:26 | INFO     | Skills found: 16 unique skills
+2026-03-26 16:24:26 | INFO     | [TIMER] count_skills completed in 0.001 s
+2026-03-26 16:24:26 | INFO     | Data unchanged – loading cached Word2Vec model from models\word2vec_resume.model
+2026-03-26 16:24:26 | INFO     | [TIMER] get_word2vec_model completed in 0.058 s
+2026-03-26 16:24:26 | INFO     | Resume vector computed from 511 / 511 tokens.
+2026-03-26 16:24:26 | INFO     | Top 10 important words computed.
+2026-03-26 16:24:26 | INFO     | [TIMER] top_n_important_words completed in 0.004 s
+2026-03-26 16:24:26 | INFO     | Top 5 words similar to 'data': end, gossip, built, mongodb, based
+2026-03-26 16:24:26 | INFO     | Top 5 words similar to 'business': competitor, com, proficient, collaboration, university
+2026-03-26 16:24:26 | INFO     | Top 5 words similar to 'analysis': html, git, soft, training, july
+2026-03-26 16:24:26 | INFO     | ============================================================
+2026-03-26 16:24:26 | INFO     | Processing complete in 3.466 s. 1 file(s) OK, 0 skipped.
+2026-03-26 16:24:26 | INFO     | ============================================================
+2026-03-27 08:38:28 | INFO     | ============================================================
+2026-03-27 08:38:28 | INFO     | Starting Resume Processor – 1 file(s)
+2026-03-27 08:38:28 | INFO     | ============================================================
+2026-03-27 08:38:28 | INFO     | ----------------------------------------
+2026-03-27 08:38:28 | INFO     | Processing: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 08:38:28 | INFO     | Extracted 4990 characters from Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 08:38:28 | INFO     | [TIMER] extract_text_from_file completed in 0.263 s
+2026-03-27 08:38:28 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-27 08:38:32 | INFO     | Preprocessing: 511 tokens -> 511 lemmatised tokens
+2026-03-27 08:38:32 | INFO     | [TIMER] preprocess completed in 3.647 s
+2026-03-27 08:38:32 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-27 08:38:32 | INFO     | Skills found: 16 unique skills
+2026-03-27 08:38:32 | INFO     | [TIMER] count_skills completed in 0.001 s
+2026-03-27 08:38:32 | INFO     | Data unchanged – loading cached Word2Vec model from models\word2vec_resume.model
+2026-03-27 08:38:32 | INFO     | [TIMER] get_word2vec_model completed in 0.077 s
+2026-03-27 08:38:32 | INFO     | Resume vector computed from 511 / 511 tokens.
+2026-03-27 08:38:32 | INFO     | Top 10 important words computed.
+2026-03-27 08:38:32 | INFO     | [TIMER] top_n_important_words completed in 0.005 s
+2026-03-27 08:38:32 | INFO     | Top 5 words similar to 'data': end, gossip, built, mongodb, based
+2026-03-27 08:38:32 | INFO     | Top 5 words similar to 'business': competitor, com, proficient, collaboration, university
+2026-03-27 08:38:32 | INFO     | Top 5 words similar to 'analysis': html, git, soft, training, july
+2026-03-27 08:38:32 | INFO     | ============================================================
+2026-03-27 08:38:32 | INFO     | Processing complete in 4.003 s. 1 file(s) OK, 0 skipped.
+2026-03-27 08:38:32 | INFO     | ============================================================
+2026-03-27 08:46:52 | INFO     | ============================================================
+2026-03-27 08:46:52 | INFO     | Starting Resume Processor – 1 file(s)
+2026-03-27 08:46:52 | INFO     | ============================================================
+2026-03-27 08:46:52 | INFO     | ----------------------------------------
+2026-03-27 08:46:52 | INFO     | Processing: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 08:46:52 | INFO     | Extracted 4990 characters from Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 08:46:52 | INFO     | [TIMER] extract_text_from_file completed in 0.158 s
+2026-03-27 08:46:52 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-27 08:46:55 | INFO     | Preprocessing: 511 tokens -> 511 lemmatised tokens
+2026-03-27 08:46:55 | INFO     | [TIMER] preprocess completed in 3.339 s
+2026-03-27 08:46:55 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-27 08:46:55 | INFO     | Skills found: 16 unique skills
+2026-03-27 08:46:55 | INFO     | [TIMER] count_skills completed in 0.001 s
+2026-03-27 08:46:55 | INFO     | Data unchanged – loading cached Word2Vec model from models\word2vec_resume.model
+2026-03-27 08:46:55 | INFO     | [TIMER] get_word2vec_model completed in 0.108 s
+2026-03-27 08:46:55 | INFO     | Resume vector computed from 511 / 511 tokens.
+2026-03-27 08:46:55 | INFO     | Top 10 important words computed.
+2026-03-27 08:46:55 | INFO     | [TIMER] top_n_important_words completed in 0.005 s
+2026-03-27 08:46:55 | INFO     | Top 5 words similar to 'data': end, gossip, built, mongodb, based
+2026-03-27 08:46:55 | INFO     | Top 5 words similar to 'business': competitor, com, proficient, collaboration, university
+2026-03-27 08:46:55 | INFO     | Top 5 words similar to 'analysis': html, git, soft, training, july
+2026-03-27 08:46:55 | INFO     | ============================================================
+2026-03-27 08:46:55 | INFO     | Processing complete in 3.624 s. 1 file(s) OK, 0 skipped.
+2026-03-27 08:46:55 | INFO     | ============================================================
+2026-03-27 09:05:13 | INFO     | ============================================================
+2026-03-27 09:05:13 | INFO     | Starting Resume Processor – 1 file(s)
+2026-03-27 09:05:13 | INFO     | ============================================================
+2026-03-27 09:05:13 | INFO     | ----------------------------------------
+2026-03-27 09:05:13 | INFO     | Processing: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 09:05:13 | INFO     | Extracted 4990 characters from Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 09:05:13 | INFO     | [TIMER] extract_text_from_file completed in 0.113 s
+2026-03-27 09:05:13 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-27 09:05:16 | INFO     | Skills found: 15 unique skills
+2026-03-27 09:05:16 | INFO     | [TIMER] count_skills completed in 0.011 s
+2026-03-27 09:05:16 | INFO     | Data unchanged – loading cached Word2Vec model from models\word2vec_resume.model
+2026-03-27 09:05:16 | INFO     | [TIMER] get_word2vec_model completed in 0.053 s
+2026-03-27 09:05:16 | INFO     | Resume vector computed from 511 / 511 tokens.
+2026-03-27 09:05:16 | INFO     | Top 10 important words computed.
+2026-03-27 09:05:16 | INFO     | [TIMER] top_n_important_words completed in 0.004 s
+2026-03-27 09:05:16 | INFO     | Top 5 words similar to 'data': end, gossip, built, mongodb, based
+2026-03-27 09:05:16 | INFO     | Top 5 words similar to 'business': competitor, com, proficient, collaboration, university
+2026-03-27 09:05:16 | INFO     | Top 5 words similar to 'analysis': html, git, soft, training, july
+2026-03-27 09:05:16 | INFO     | ============================================================
+2026-03-27 09:05:16 | INFO     | Processing complete in 3.285 s. 1 file(s) OK, 0 skipped.
+2026-03-27 09:05:16 | INFO     | ============================================================
+2026-03-27 09:07:29 | INFO     | ============================================================
+2026-03-27 09:07:29 | INFO     | Starting Resume Processor – 1 file(s)
+2026-03-27 09:07:29 | INFO     | ============================================================
+2026-03-27 09:07:29 | INFO     | ----------------------------------------
+2026-03-27 09:07:29 | INFO     | Processing: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 09:07:29 | INFO     | Extracted 4990 characters from Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 09:07:29 | INFO     | [TIMER] extract_text_from_file completed in 0.100 s
+2026-03-27 09:07:29 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-27 09:07:33 | INFO     | Skills found: 15 unique skills
+2026-03-27 09:07:33 | INFO     | [TIMER] count_skills completed in 0.012 s
+2026-03-27 09:07:33 | INFO     | Data unchanged – loading cached Word2Vec model from models\word2vec_resume.model
+2026-03-27 09:07:33 | INFO     | [TIMER] get_word2vec_model completed in 0.068 s
+2026-03-27 09:07:33 | INFO     | Resume vector computed from 511 / 511 tokens.
+2026-03-27 09:07:33 | INFO     | Top 10 important words computed.
+2026-03-27 09:07:33 | INFO     | [TIMER] top_n_important_words completed in 0.004 s
+2026-03-27 09:07:33 | INFO     | Top 5 words similar to 'data': end, gossip, built, mongodb, based
+2026-03-27 09:07:33 | INFO     | Top 5 words similar to 'business': competitor, com, proficient, collaboration, university
+2026-03-27 09:07:33 | INFO     | Top 5 words similar to 'analysis': html, git, soft, training, july
+2026-03-27 09:07:33 | INFO     | ============================================================
+2026-03-27 09:07:33 | INFO     | Processing complete in 3.510 s. 1 file(s) OK, 0 skipped.
+2026-03-27 09:07:33 | INFO     | ============================================================
+2026-03-27 09:12:01 | INFO     | ============================================================
+2026-03-27 09:12:01 | INFO     | Starting Resume Processor – 1 file(s)
+2026-03-27 09:12:01 | INFO     | ============================================================
+2026-03-27 09:12:01 | INFO     | ----------------------------------------
+2026-03-27 09:12:01 | INFO     | Processing: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 09:12:01 | INFO     | Extracted 4990 characters from Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 09:12:01 | INFO     | [TIMER] extract_text_from_file completed in 0.090 s
+2026-03-27 09:12:01 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-27 09:12:04 | INFO     | Skills found: 15 unique skills
+2026-03-27 09:12:04 | INFO     | [TIMER] count_skills completed in 0.013 s
+2026-03-27 09:12:04 | INFO     | Data unchanged – loading cached Word2Vec model from models\word2vec_resume.model
+2026-03-27 09:12:04 | INFO     | [TIMER] get_word2vec_model completed in 0.058 s
+2026-03-27 09:12:04 | INFO     | Resume vector computed from 511 / 511 tokens.
+2026-03-27 09:12:04 | INFO     | Top 10 important words computed.
+2026-03-27 09:12:04 | INFO     | [TIMER] top_n_important_words completed in 0.005 s
+2026-03-27 09:12:04 | INFO     | Top 5 words similar to 'data': end, gossip, built, mongodb, based
+2026-03-27 09:12:04 | INFO     | Top 5 words similar to 'business': competitor, com, proficient, collaboration, university
+2026-03-27 09:12:04 | INFO     | Top 5 words similar to 'analysis': html, git, soft, training, july
+2026-03-27 09:12:04 | INFO     | ============================================================
+2026-03-27 09:12:04 | INFO     | Processing complete in 3.540 s. 1 file(s) OK, 0 skipped.
+2026-03-27 09:12:04 | INFO     | ============================================================
+2026-03-27 09:12:26 | INFO     | ============================================================
+2026-03-27 09:12:26 | INFO     | Starting Resume Processor – 1 file(s)
+2026-03-27 09:12:26 | INFO     | ============================================================
+2026-03-27 09:12:26 | INFO     | ----------------------------------------
+2026-03-27 09:12:26 | INFO     | Processing: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 09:12:26 | INFO     | Extracted 4990 characters from Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 09:12:26 | INFO     | [TIMER] extract_text_from_file completed in 0.187 s
+2026-03-27 09:12:26 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-27 09:12:30 | INFO     | Skills found: 15 unique skills
+2026-03-27 09:12:30 | INFO     | [TIMER] count_skills completed in 0.011 s
+2026-03-27 09:12:30 | INFO     | Data unchanged – loading cached Word2Vec model from models\word2vec_resume.model
+2026-03-27 09:12:30 | INFO     | [TIMER] get_word2vec_model completed in 0.068 s
+2026-03-27 09:12:30 | INFO     | Resume vector computed from 511 / 511 tokens.
+2026-03-27 09:12:30 | INFO     | Top 10 important words computed.
+2026-03-27 09:12:30 | INFO     | [TIMER] top_n_important_words completed in 0.006 s
+2026-03-27 09:12:30 | INFO     | Top 5 words similar to 'data': end, gossip, built, mongodb, based
+2026-03-27 09:12:30 | INFO     | Top 5 words similar to 'business': competitor, com, proficient, collaboration, university
+2026-03-27 09:12:30 | INFO     | Top 5 words similar to 'analysis': html, git, soft, training, july
+2026-03-27 09:12:30 | INFO     | ============================================================
+2026-03-27 09:12:30 | INFO     | Processing complete in 3.884 s. 1 file(s) OK, 0 skipped.
+2026-03-27 09:12:30 | INFO     | ============================================================
+2026-03-27 09:15:59 | INFO     | ============================================================
+2026-03-27 09:15:59 | INFO     | Starting Resume Processor – 1 file(s)
+2026-03-27 09:15:59 | INFO     | ============================================================
+2026-03-27 09:15:59 | INFO     | ----------------------------------------
+2026-03-27 09:15:59 | INFO     | Processing: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 09:15:59 | INFO     | Extracted 4990 characters from Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 09:15:59 | INFO     | [TIMER] extract_text_from_file completed in 0.098 s
+2026-03-27 09:15:59 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-27 09:16:02 | INFO     | Skills found: 15 unique skills
+2026-03-27 09:16:02 | INFO     | [TIMER] count_skills completed in 0.010 s
+2026-03-27 09:16:02 | INFO     | Data unchanged – loading cached Word2Vec model from models\word2vec_resume.model
+2026-03-27 09:16:02 | INFO     | [TIMER] get_word2vec_model completed in 0.068 s
+2026-03-27 09:16:02 | INFO     | Resume vector computed from 511 / 511 tokens.
+2026-03-27 09:16:02 | INFO     | Top 10 important words computed.
+2026-03-27 09:16:02 | INFO     | [TIMER] top_n_important_words completed in 0.004 s
+2026-03-27 09:16:02 | INFO     | Top 5 words similar to 'data': end, gossip, built, mongodb, based
+2026-03-27 09:16:02 | INFO     | Top 5 words similar to 'business': competitor, com, proficient, collaboration, university
+2026-03-27 09:16:02 | INFO     | Top 5 words similar to 'analysis': html, git, soft, training, july
+2026-03-27 09:16:02 | INFO     | ============================================================
+2026-03-27 09:16:02 | INFO     | Processing complete in 3.432 s. 1 file(s) OK, 0 skipped.
+2026-03-27 09:16:02 | INFO     | ============================================================
+2026-03-27 09:19:52 | INFO     | ============================================================
+2026-03-27 09:19:52 | INFO     | Starting Resume Processor – 1 file(s)
+2026-03-27 09:19:52 | INFO     | ============================================================
+2026-03-27 09:19:52 | INFO     | ----------------------------------------
+2026-03-27 09:19:52 | INFO     | Processing: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 09:19:52 | INFO     | Extracted 4990 characters from Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 09:19:52 | INFO     | [TIMER] extract_text_from_file completed in 0.083 s
+2026-03-27 09:19:52 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-27 09:19:55 | INFO     | Skills found: 15 unique skills
+2026-03-27 09:19:55 | INFO     | [TIMER] count_skills completed in 0.010 s
+2026-03-27 09:19:55 | INFO     | Data unchanged – loading cached Word2Vec model from models\word2vec_resume.model
+2026-03-27 09:19:55 | INFO     | [TIMER] get_word2vec_model completed in 0.054 s
+2026-03-27 09:19:55 | INFO     | Resume vector computed from 511 / 511 tokens.
+2026-03-27 09:19:55 | INFO     | Top 10 important words computed.
+2026-03-27 09:19:55 | INFO     | [TIMER] top_n_important_words completed in 0.004 s
+2026-03-27 09:19:55 | INFO     | Top 5 words similar to 'data': end, gossip, built, mongodb, based
+2026-03-27 09:19:55 | INFO     | Top 5 words similar to 'business': competitor, com, proficient, collaboration, university
+2026-03-27 09:19:55 | INFO     | Top 5 words similar to 'analysis': html, git, soft, training, july
+2026-03-27 09:19:55 | INFO     | ============================================================
+2026-03-27 09:19:55 | INFO     | Processing complete in 3.219 s. 1 file(s) OK, 0 skipped.
+2026-03-27 09:19:55 | INFO     | ============================================================
+2026-03-27 09:20:15 | INFO     | ============================================================
+2026-03-27 09:20:15 | INFO     | Starting Resume Processor – 1 file(s)
+2026-03-27 09:20:15 | INFO     | ============================================================
+2026-03-27 09:20:15 | INFO     | ----------------------------------------
+2026-03-27 09:20:15 | INFO     | Processing: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 09:20:15 | INFO     | Extracted 4990 characters from Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 09:20:15 | INFO     | [TIMER] extract_text_from_file completed in 0.110 s
+2026-03-27 09:20:15 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-27 09:20:19 | INFO     | Skills found: 15 unique skills
+2026-03-27 09:20:19 | INFO     | [TIMER] count_skills completed in 0.010 s
+2026-03-27 09:20:19 | INFO     | Data unchanged – loading cached Word2Vec model from models\word2vec_resume.model
+2026-03-27 09:20:19 | INFO     | [TIMER] get_word2vec_model completed in 0.059 s
+2026-03-27 09:20:19 | INFO     | Resume vector computed from 511 / 511 tokens.
+2026-03-27 09:20:19 | INFO     | Top 10 important words computed.
+2026-03-27 09:20:19 | INFO     | [TIMER] top_n_important_words completed in 0.004 s
+2026-03-27 09:20:19 | INFO     | Top 5 words similar to 'data': end, gossip, built, mongodb, based
+2026-03-27 09:20:19 | INFO     | Top 5 words similar to 'business': competitor, com, proficient, collaboration, university
+2026-03-27 09:20:19 | INFO     | Top 5 words similar to 'analysis': html, git, soft, training, july
+2026-03-27 09:20:19 | INFO     | ============================================================
+2026-03-27 09:20:19 | INFO     | Processing complete in 3.859 s. 1 file(s) OK, 0 skipped.
+2026-03-27 09:20:19 | INFO     | ============================================================
+2026-03-27 09:26:02 | INFO     | ============================================================
+2026-03-27 09:26:02 | INFO     | Starting Resume Processor – 1 file(s)
+2026-03-27 09:26:02 | INFO     | ============================================================
+2026-03-27 09:26:02 | INFO     | ----------------------------------------
+2026-03-27 09:26:02 | INFO     | Processing: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 09:26:02 | INFO     | Extracted 4990 characters from Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 09:26:02 | INFO     | [TIMER] extract_text_from_file completed in 0.192 s
+2026-03-27 09:26:02 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-27 09:26:05 | INFO     | Skills found: 15 unique skills
+2026-03-27 09:26:05 | INFO     | [TIMER] count_skills completed in 0.011 s
+2026-03-27 09:26:05 | INFO     | Data unchanged – loading cached Word2Vec model from models\word2vec_resume.model
+2026-03-27 09:26:06 | INFO     | [TIMER] get_word2vec_model completed in 0.062 s
+2026-03-27 09:26:06 | INFO     | Resume vector computed from 511 / 511 tokens.
+2026-03-27 09:26:06 | INFO     | Top 10 important words computed.
+2026-03-27 09:26:06 | INFO     | [TIMER] top_n_important_words completed in 0.005 s
+2026-03-27 09:26:06 | INFO     | Top 5 words similar to 'data': end, gossip, built, mongodb, based
+2026-03-27 09:26:06 | INFO     | Top 5 words similar to 'business': competitor, com, proficient, collaboration, university
+2026-03-27 09:26:06 | INFO     | Top 5 words similar to 'analysis': html, git, soft, training, july
+2026-03-27 09:26:06 | INFO     | ============================================================
+2026-03-27 09:26:06 | INFO     | Processing complete in 3.409 s. 1 file(s) OK, 0 skipped.
+2026-03-27 09:26:06 | INFO     | ============================================================
+2026-03-27 09:31:34 | INFO     | ============================================================
+2026-03-27 09:31:34 | INFO     | Starting Resume Processor – 1 file(s)
+2026-03-27 09:31:34 | INFO     | ============================================================
+2026-03-27 09:31:34 | INFO     | ----------------------------------------
+2026-03-27 09:31:34 | INFO     | Processing: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 09:31:34 | INFO     | Extracted 4990 characters from Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 09:31:34 | INFO     | [TIMER] extract_text_from_file completed in 0.084 s
+2026-03-27 09:31:34 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-27 09:31:37 | INFO     | Skills found: 15 unique skills
+2026-03-27 09:31:37 | INFO     | [TIMER] count_skills completed in 0.012 s
+2026-03-27 09:31:37 | INFO     | Data unchanged – loading cached Word2Vec model from models\word2vec_resume.model
+2026-03-27 09:31:37 | INFO     | [TIMER] get_word2vec_model completed in 0.059 s
+2026-03-27 09:31:37 | INFO     | Resume vector computed from 511 / 511 tokens.
+2026-03-27 09:31:37 | INFO     | Top 10 important words computed.
+2026-03-27 09:31:37 | INFO     | [TIMER] top_n_important_words completed in 0.005 s
+2026-03-27 09:31:37 | INFO     | Top 5 words similar to 'data': end, gossip, built, mongodb, based
+2026-03-27 09:31:37 | INFO     | Top 5 words similar to 'business': competitor, com, proficient, collaboration, university
+2026-03-27 09:31:37 | INFO     | Top 5 words similar to 'analysis': html, git, soft, training, july
+2026-03-27 09:31:37 | INFO     | ============================================================
+2026-03-27 09:31:37 | INFO     | Processing complete in 3.230 s. 1 file(s) OK, 0 skipped.
+2026-03-27 09:31:37 | INFO     | ============================================================
+2026-03-27 09:34:25 | INFO     | ============================================================
+2026-03-27 09:34:25 | INFO     | Starting Resume Processor – 1 file(s)
+2026-03-27 09:34:25 | INFO     | ============================================================
+2026-03-27 09:34:25 | INFO     | ----------------------------------------
+2026-03-27 09:34:25 | INFO     | Processing: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 09:34:25 | INFO     | Extracted 4990 characters from Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 09:34:25 | INFO     | [TIMER] extract_text_from_file completed in 0.120 s
+2026-03-27 09:34:25 | INFO     | clean_text: 4554 chars -> 4263 chars
+2026-03-27 09:34:28 | INFO     | Skills found: 15 unique skills
+2026-03-27 09:34:28 | INFO     | [TIMER] count_skills completed in 0.009 s
+2026-03-27 09:34:28 | INFO     | Data unchanged – loading cached Word2Vec model from models\word2vec_resume.model
+2026-03-27 09:34:28 | INFO     | [TIMER] get_word2vec_model completed in 0.061 s
+2026-03-27 09:34:28 | INFO     | Resume vector computed from 511 / 511 tokens.
+2026-03-27 09:34:28 | INFO     | Top 10 important words computed.
+2026-03-27 09:34:28 | INFO     | [TIMER] top_n_important_words completed in 0.004 s
+2026-03-27 09:34:28 | INFO     | Top 5 words similar to 'data': end, gossip, built, mongodb, based
+2026-03-27 09:34:28 | INFO     | Top 5 words similar to 'business': competitor, com, proficient, collaboration, university
+2026-03-27 09:34:28 | INFO     | Top 5 words similar to 'analysis': html, git, soft, training, july
+2026-03-27 09:34:28 | INFO     | ============================================================
+2026-03-27 09:34:28 | INFO     | Processing complete in 3.443 s. 1 file(s) OK, 0 skipped.
+2026-03-27 09:34:28 | INFO     | ============================================================
+2026-03-27 11:41:19 | INFO     | ============================================================
+2026-03-27 11:41:19 | INFO     | Starting Resume Processor – 1 file(s)
+2026-03-27 11:41:19 | INFO     | ============================================================
+2026-03-27 11:41:19 | INFO     | ----------------------------------------
+2026-03-27 11:41:19 | INFO     | Processing: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 11:41:19 | ERROR    | PyPDF2 is not installed. Install it to process PDFs.
+2026-03-27 11:41:19 | WARNING  | File is empty or unreadable: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 11:41:19 | INFO     | [TIMER] extract_text_from_file completed in 0.003 s
+2026-03-27 11:41:19 | WARNING  | No tokens available – skipping Word2Vec training.
+2026-03-27 11:41:19 | WARNING  | No valid texts for TF-IDF computation.
+2026-03-27 11:41:19 | INFO     | [TIMER] top_n_important_words completed in 0.000 s
+2026-03-27 11:41:19 | INFO     | ============================================================
+2026-03-27 11:41:19 | INFO     | Processing complete in 0.022 s. 0 file(s) OK, 1 skipped.
+2026-03-27 11:41:19 | INFO     | ============================================================
+2026-03-27 11:46:52 | INFO     | ============================================================
+2026-03-27 11:46:52 | INFO     | Starting Resume Processor – 1 file(s)
+2026-03-27 11:46:52 | INFO     | ============================================================
+2026-03-27 11:46:52 | INFO     | ----------------------------------------
+2026-03-27 11:46:52 | INFO     | Processing: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 11:46:52 | ERROR    | PyPDF2 is not installed. Install it to process PDFs.
+2026-03-27 11:46:52 | WARNING  | File is empty or unreadable: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 11:46:52 | INFO     | [TIMER] extract_text_from_file completed in 0.001 s
+2026-03-27 11:46:52 | WARNING  | No tokens available – skipping Word2Vec training.
+2026-03-27 11:46:52 | WARNING  | No valid texts for TF-IDF computation.
+2026-03-27 11:46:52 | INFO     | [TIMER] top_n_important_words completed in 0.000 s
+2026-03-27 11:46:52 | INFO     | ============================================================
+2026-03-27 11:46:52 | INFO     | Processing complete in 0.012 s. 0 file(s) OK, 1 skipped.
+2026-03-27 11:46:52 | INFO     | ============================================================
+2026-03-27 11:48:03 | INFO     | ============================================================
+2026-03-27 11:48:03 | INFO     | Starting Resume Processor – 7 file(s)
+2026-03-27 11:48:03 | INFO     | ============================================================
+2026-03-27 11:48:03 | INFO     | ----------------------------------------
+2026-03-27 11:48:03 | INFO     | Processing: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 11:48:03 | ERROR    | PyPDF2 is not installed. Install it to process PDFs.
+2026-03-27 11:48:03 | WARNING  | File is empty or unreadable: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 11:48:03 | INFO     | [TIMER] extract_text_from_file completed in 0.003 s
+2026-03-27 11:48:03 | INFO     | ----------------------------------------
+2026-03-27 11:48:03 | INFO     | Processing: resume\administrative-assistant-resume-example.pdf
+2026-03-27 11:48:03 | ERROR    | PyPDF2 is not installed. Install it to process PDFs.
+2026-03-27 11:48:03 | WARNING  | File is empty or unreadable: resume\administrative-assistant-resume-example.pdf
+2026-03-27 11:48:03 | INFO     | [TIMER] extract_text_from_file completed in 0.060 s
+2026-03-27 11:48:03 | INFO     | ----------------------------------------
+2026-03-27 11:48:03 | INFO     | Processing: resume\entry-level-customer-service-resume-example.pdf
+2026-03-27 11:48:03 | ERROR    | PyPDF2 is not installed. Install it to process PDFs.
+2026-03-27 11:48:03 | WARNING  | File is empty or unreadable: resume\entry-level-customer-service-resume-example.pdf
+2026-03-27 11:48:03 | INFO     | [TIMER] extract_text_from_file completed in 0.004 s
+2026-03-27 11:48:03 | INFO     | ----------------------------------------
+2026-03-27 11:48:03 | INFO     | Processing: resume\entry-level-engineer-resume-example.pdf
+2026-03-27 11:48:03 | ERROR    | PyPDF2 is not installed. Install it to process PDFs.
+2026-03-27 11:48:03 | WARNING  | File is empty or unreadable: resume\entry-level-engineer-resume-example.pdf
+2026-03-27 11:48:03 | INFO     | [TIMER] extract_text_from_file completed in 0.003 s
+2026-03-27 11:48:03 | INFO     | ----------------------------------------
+2026-03-27 11:48:03 | INFO     | Processing: resume\nursing-resume-example.pdf
+2026-03-27 11:48:03 | ERROR    | PyPDF2 is not installed. Install it to process PDFs.
+2026-03-27 11:48:03 | WARNING  | File is empty or unreadable: resume\nursing-resume-example.pdf
+2026-03-27 11:48:03 | INFO     | [TIMER] extract_text_from_file completed in 0.003 s
+2026-03-27 11:48:03 | INFO     | ----------------------------------------
+2026-03-27 11:48:03 | INFO     | Processing: resume\recent-graduate-nurse-resume-example-template.pdf
+2026-03-27 11:48:03 | ERROR    | PyPDF2 is not installed. Install it to process PDFs.
+2026-03-27 11:48:03 | WARNING  | File is empty or unreadable: resume\recent-graduate-nurse-resume-example-template.pdf
+2026-03-27 11:48:03 | INFO     | [TIMER] extract_text_from_file completed in 0.006 s
+2026-03-27 11:48:03 | INFO     | ----------------------------------------
+2026-03-27 11:48:03 | INFO     | Processing: resume\teacher-resume-example-template.pdf
+2026-03-27 11:48:03 | ERROR    | PyPDF2 is not installed. Install it to process PDFs.
+2026-03-27 11:48:03 | WARNING  | File is empty or unreadable: resume\teacher-resume-example-template.pdf
+2026-03-27 11:48:03 | INFO     | [TIMER] extract_text_from_file completed in 0.003 s
+2026-03-27 11:48:03 | WARNING  | No tokens available – skipping Word2Vec training.
+2026-03-27 11:48:03 | WARNING  | No valid texts for TF-IDF computation.
+2026-03-27 11:48:03 | INFO     | [TIMER] top_n_important_words completed in 0.000 s
+2026-03-27 11:48:03 | INFO     | ============================================================
+2026-03-27 11:48:03 | INFO     | Processing complete in 0.114 s. 0 file(s) OK, 7 skipped.
+2026-03-27 11:48:03 | INFO     | ============================================================
+2026-03-27 11:59:44 | INFO     | ============================================================
+2026-03-27 11:59:44 | INFO     | Starting Resume Processor – 7 file(s)
+2026-03-27 11:59:44 | INFO     | ============================================================
+2026-03-27 11:59:44 | INFO     | ----------------------------------------
+2026-03-27 11:59:44 | INFO     | Processing: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 11:59:45 | INFO     | Extracted 4530 characters using pdfplumber from Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 11:59:45 | INFO     | Extracted 4529 characters from Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 11:59:45 | INFO     | [TIMER] extract_text_from_file completed in 0.568 s
+2026-03-27 11:59:45 | INFO     | clean_text: 4244 chars -> 4200 chars
+2026-03-27 11:59:49 | INFO     | Skills found: 14 unique skills
+2026-03-27 11:59:49 | INFO     | [TIMER] count_skills completed in 0.007 s
+2026-03-27 11:59:49 | INFO     | ----------------------------------------
+2026-03-27 11:59:49 | INFO     | Processing: resume\administrative-assistant-resume-example.pdf
+2026-03-27 11:59:49 | INFO     | Extracted 2887 characters using pdfplumber from administrative-assistant-resume-example.pdf
+2026-03-27 11:59:49 | INFO     | Extracted 2886 characters from administrative-assistant-resume-example.pdf
+2026-03-27 11:59:49 | INFO     | [TIMER] extract_text_from_file completed in 0.481 s
+2026-03-27 11:59:49 | INFO     | clean_text: 2760 chars -> 2324 chars
+2026-03-27 11:59:49 | INFO     | Skills found: 4 unique skills
+2026-03-27 11:59:49 | INFO     | [TIMER] count_skills completed in 0.005 s
+2026-03-27 11:59:49 | INFO     | ----------------------------------------
+2026-03-27 11:59:49 | INFO     | Processing: resume\entry-level-customer-service-resume-example.pdf
+2026-03-27 11:59:50 | INFO     | Extracted 1516 characters using pdfplumber from entry-level-customer-service-resume-example.pdf
+2026-03-27 11:59:50 | INFO     | Extracted 1515 characters from entry-level-customer-service-resume-example.pdf
+2026-03-27 11:59:50 | INFO     | [TIMER] extract_text_from_file completed in 0.314 s
+2026-03-27 11:59:50 | INFO     | clean_text: 1429 chars -> 1289 chars
+2026-03-27 11:59:50 | INFO     | Skills found: 2 unique skills
+2026-03-27 11:59:50 | INFO     | [TIMER] count_skills completed in 0.003 s
+2026-03-27 11:59:50 | INFO     | ----------------------------------------
+2026-03-27 11:59:50 | INFO     | Processing: resume\entry-level-engineer-resume-example.pdf
+2026-03-27 11:59:50 | INFO     | Extracted 3204 characters using pdfplumber from entry-level-engineer-resume-example.pdf
+2026-03-27 11:59:50 | INFO     | Extracted 3203 characters from entry-level-engineer-resume-example.pdf
+2026-03-27 11:59:50 | INFO     | [TIMER] extract_text_from_file completed in 0.611 s
+2026-03-27 11:59:50 | INFO     | clean_text: 3058 chars -> 2544 chars
+2026-03-27 11:59:50 | INFO     | Skills found: 1 unique skills
+2026-03-27 11:59:50 | INFO     | [TIMER] count_skills completed in 0.003 s
+2026-03-27 11:59:50 | INFO     | ----------------------------------------
+2026-03-27 11:59:50 | INFO     | Processing: resume\nursing-resume-example.pdf
+2026-03-27 11:59:51 | INFO     | Extracted 2982 characters using pdfplumber from nursing-resume-example.pdf
+2026-03-27 11:59:51 | INFO     | Extracted 2981 characters from nursing-resume-example.pdf
+2026-03-27 11:59:51 | INFO     | [TIMER] extract_text_from_file completed in 0.356 s
+2026-03-27 11:59:51 | INFO     | clean_text: 2841 chars -> 2315 chars
+2026-03-27 11:59:51 | INFO     | Skills found: 0 unique skills
+2026-03-27 11:59:51 | INFO     | [TIMER] count_skills completed in 0.003 s
+2026-03-27 11:59:51 | INFO     | ----------------------------------------
+2026-03-27 11:59:51 | INFO     | Processing: resume\recent-graduate-nurse-resume-example-template.pdf
+2026-03-27 11:59:51 | INFO     | Extracted 828 characters using pdfplumber from recent-graduate-nurse-resume-example-template.pdf
+2026-03-27 11:59:51 | INFO     | Extracted 827 characters from recent-graduate-nurse-resume-example-template.pdf
+2026-03-27 11:59:51 | INFO     | [TIMER] extract_text_from_file completed in 0.182 s
+2026-03-27 11:59:51 | INFO     | clean_text: 805 chars -> 567 chars
+2026-03-27 11:59:51 | INFO     | Skills found: 0 unique skills
+2026-03-27 11:59:51 | INFO     | [TIMER] count_skills completed in 0.001 s
+2026-03-27 11:59:51 | INFO     | ----------------------------------------
+2026-03-27 11:59:51 | INFO     | Processing: resume\teacher-resume-example-template.pdf
+2026-03-27 11:59:51 | INFO     | Extracted 3147 characters using pdfplumber from teacher-resume-example-template.pdf
+2026-03-27 11:59:51 | INFO     | Extracted 3146 characters from teacher-resume-example-template.pdf
+2026-03-27 11:59:51 | INFO     | [TIMER] extract_text_from_file completed in 0.418 s
+2026-03-27 11:59:51 | INFO     | clean_text: 2992 chars -> 2429 chars
+2026-03-27 11:59:51 | INFO     | Skills found: 1 unique skills
+2026-03-27 11:59:51 | INFO     | [TIMER] count_skills completed in 0.003 s
+2026-03-27 11:59:51 | INFO     | Training data changed – retraining Word2Vec model.
+2026-03-27 11:59:51 | INFO     | Training new Word2Vec model (7 sentences) …
+2026-03-27 11:59:51 | INFO     | Word2Vec model saved to models\word2vec_resume.model
+2026-03-27 11:59:51 | INFO     | [TIMER] get_word2vec_model completed in 0.331 s
+2026-03-27 11:59:51 | INFO     | Resume vector computed from 297 / 297 tokens.
+2026-03-27 11:59:51 | INFO     | Resume vector computed from 288 / 288 tokens.
+2026-03-27 11:59:51 | INFO     | Resume vector computed from 155 / 155 tokens.
+2026-03-27 11:59:51 | INFO     | Resume vector computed from 315 / 315 tokens.
+2026-03-27 11:59:51 | INFO     | Resume vector computed from 304 / 304 tokens.
+2026-03-27 11:59:51 | INFO     | Resume vector computed from 80 / 80 tokens.
+2026-03-27 11:59:51 | INFO     | Resume vector computed from 315 / 315 tokens.
+2026-03-27 11:59:52 | INFO     | Top 10 important words computed.
+2026-03-27 11:59:52 | INFO     | [TIMER] top_n_important_words completed in 0.023 s
+2026-03-27 11:59:52 | INFO     | Top 5 words similar to 'resume': type, present, wide, per, cid
+2026-03-27 11:59:52 | INFO     | Top 5 words similar to 'cover': seeker, learner, dream, veteran, followed
+2026-03-27 11:59:52 | INFO     | Top 5 words similar to 'letter': java, amazon, research, net, regularly
+2026-03-27 11:59:52 | INFO     | ============================================================
+2026-03-27 11:59:52 | INFO     | Processing complete in 7.552 s. 7 file(s) OK, 0 skipped.
+2026-03-27 11:59:52 | INFO     | ============================================================
+2026-03-27 12:26:24 | INFO     | ============================================================
+2026-03-27 12:26:24 | INFO     | Starting Resume Processor – 7 file(s)
+2026-03-27 12:26:24 | INFO     | ============================================================
+2026-03-27 12:26:24 | INFO     | ----------------------------------------
+2026-03-27 12:26:24 | INFO     | Processing: resume\Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 12:26:25 | INFO     | Extracted 4530 characters using pdfplumber from Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 12:26:25 | INFO     | Extracted 4529 characters from Abaidullah Seikh_Data Analyst.pdf
+2026-03-27 12:26:25 | INFO     | [TIMER] extract_text_from_file completed in 0.519 s
+2026-03-27 12:26:25 | INFO     | clean_text: 4244 chars -> 4200 chars
+2026-03-27 12:26:29 | INFO     | Skills found: 14 unique skills
+2026-03-27 12:26:29 | INFO     | [TIMER] count_skills completed in 0.006 s
+2026-03-27 12:26:29 | INFO     | ----------------------------------------
+2026-03-27 12:26:29 | INFO     | Processing: resume\administrative-assistant-resume-example.pdf
+2026-03-27 12:26:30 | INFO     | Extracted 2887 characters using pdfplumber from administrative-assistant-resume-example.pdf
+2026-03-27 12:26:30 | INFO     | Extracted 2886 characters from administrative-assistant-resume-example.pdf
+2026-03-27 12:26:30 | INFO     | [TIMER] extract_text_from_file completed in 0.474 s
+2026-03-27 12:26:30 | INFO     | clean_text: 2760 chars -> 2324 chars
+2026-03-27 12:26:30 | INFO     | Skills found: 4 unique skills
+2026-03-27 12:26:30 | INFO     | [TIMER] count_skills completed in 0.003 s
+2026-03-27 12:26:30 | INFO     | ----------------------------------------
+2026-03-27 12:26:30 | INFO     | Processing: resume\entry-level-customer-service-resume-example.pdf
+2026-03-27 12:26:30 | INFO     | Extracted 1516 characters using pdfplumber from entry-level-customer-service-resume-example.pdf
+2026-03-27 12:26:30 | INFO     | Extracted 1515 characters from entry-level-customer-service-resume-example.pdf
+2026-03-27 12:26:30 | INFO     | [TIMER] extract_text_from_file completed in 0.318 s
+2026-03-27 12:26:30 | INFO     | clean_text: 1429 chars -> 1289 chars
+2026-03-27 12:26:30 | INFO     | Skills found: 2 unique skills
+2026-03-27 12:26:30 | INFO     | [TIMER] count_skills completed in 0.002 s
+2026-03-27 12:26:30 | INFO     | ----------------------------------------
+2026-03-27 12:26:30 | INFO     | Processing: resume\entry-level-engineer-resume-example.pdf
+2026-03-27 12:26:30 | INFO     | Extracted 3204 characters using pdfplumber from entry-level-engineer-resume-example.pdf
+2026-03-27 12:26:30 | INFO     | Extracted 3203 characters from entry-level-engineer-resume-example.pdf
+2026-03-27 12:26:30 | INFO     | [TIMER] extract_text_from_file completed in 0.502 s
+2026-03-27 12:26:31 | INFO     | clean_text: 3058 chars -> 2544 chars
+2026-03-27 12:26:31 | INFO     | Skills found: 1 unique skills
+2026-03-27 12:26:31 | INFO     | [TIMER] count_skills completed in 0.003 s
+2026-03-27 12:26:31 | INFO     | ----------------------------------------
+2026-03-27 12:26:31 | INFO     | Processing: resume\nursing-resume-example.pdf
+2026-03-27 12:26:31 | INFO     | Extracted 2982 characters using pdfplumber from nursing-resume-example.pdf
+2026-03-27 12:26:31 | INFO     | Extracted 2981 characters from nursing-resume-example.pdf
+2026-03-27 12:26:31 | INFO     | [TIMER] extract_text_from_file completed in 0.326 s
+2026-03-27 12:26:31 | INFO     | clean_text: 2841 chars -> 2315 chars
+2026-03-27 12:26:31 | INFO     | Skills found: 0 unique skills
+2026-03-27 12:26:31 | INFO     | [TIMER] count_skills completed in 0.002 s
+2026-03-27 12:26:31 | INFO     | ----------------------------------------
+2026-03-27 12:26:31 | INFO     | Processing: resume\recent-graduate-nurse-resume-example-template.pdf
+2026-03-27 12:26:31 | INFO     | Extracted 828 characters using pdfplumber from recent-graduate-nurse-resume-example-template.pdf
+2026-03-27 12:26:31 | INFO     | Extracted 827 characters from recent-graduate-nurse-resume-example-template.pdf
+2026-03-27 12:26:31 | INFO     | [TIMER] extract_text_from_file completed in 0.154 s
+2026-03-27 12:26:31 | INFO     | clean_text: 805 chars -> 567 chars
+2026-03-27 12:26:31 | INFO     | Skills found: 0 unique skills
+2026-03-27 12:26:31 | INFO     | [TIMER] count_skills completed in 0.001 s
+2026-03-27 12:26:31 | INFO     | ----------------------------------------
+2026-03-27 12:26:31 | INFO     | Processing: resume\teacher-resume-example-template.pdf
+2026-03-27 12:26:31 | INFO     | Extracted 3147 characters using pdfplumber from teacher-resume-example-template.pdf
+2026-03-27 12:26:31 | INFO     | Extracted 3146 characters from teacher-resume-example-template.pdf
+2026-03-27 12:26:31 | INFO     | [TIMER] extract_text_from_file completed in 0.339 s
+2026-03-27 12:26:31 | INFO     | clean_text: 2992 chars -> 2429 chars
+2026-03-27 12:26:31 | INFO     | Skills found: 1 unique skills
+2026-03-27 12:26:31 | INFO     | [TIMER] count_skills completed in 0.003 s
+2026-03-27 12:26:31 | INFO     | Data unchanged – loading cached Word2Vec model from models\word2vec_resume.model
+2026-03-27 12:26:31 | INFO     | [TIMER] get_word2vec_model completed in 0.061 s
+2026-03-27 12:26:31 | INFO     | Resume vector computed from 297 / 297 tokens.
+2026-03-27 12:26:31 | INFO     | Resume vector computed from 288 / 288 tokens.
+2026-03-27 12:26:31 | INFO     | Resume vector computed from 155 / 155 tokens.
+2026-03-27 12:26:31 | INFO     | Resume vector computed from 315 / 315 tokens.
+2026-03-27 12:26:31 | INFO     | Resume vector computed from 304 / 304 tokens.
+2026-03-27 12:26:31 | INFO     | Resume vector computed from 80 / 80 tokens.
+2026-03-27 12:26:31 | INFO     | Resume vector computed from 315 / 315 tokens.
+2026-03-27 12:26:31 | INFO     | Top 10 important words computed.
+2026-03-27 12:26:31 | INFO     | [TIMER] top_n_important_words completed in 0.007 s
+2026-03-27 12:26:31 | INFO     | Top 5 words similar to 'resume': type, present, wide, per, cid
+2026-03-27 12:26:31 | INFO     | Top 5 words similar to 'cover': seeker, learner, dream, veteran, followed
+2026-03-27 12:26:31 | INFO     | Top 5 words similar to 'letter': java, amazon, research, net, regularly
+2026-03-27 12:26:31 | INFO     | ============================================================
+2026-03-27 12:26:31 | INFO     | Processing complete in 6.938 s. 7 file(s) OK, 0 skipped.
+2026-03-27 12:26:31 | INFO     | ============================================================
+2026-03-27 12:26:32 | INFO     | clean_text: 4200 chars -> 4200 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 4200 chars -> 4200 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 273 chars -> 221 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 273 chars -> 221 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 261 chars -> 237 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 261 chars -> 237 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 241 chars -> 207 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 241 chars -> 207 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 283 chars -> 251 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 283 chars -> 251 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 256 chars -> 225 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 256 chars -> 225 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 262 chars -> 233 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 262 chars -> 233 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 249 chars -> 230 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 249 chars -> 230 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 227 chars -> 199 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 227 chars -> 199 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 219 chars -> 184 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 219 chars -> 184 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 216 chars -> 190 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 216 chars -> 190 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 313 chars -> 254 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 313 chars -> 254 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 2324 chars -> 2324 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 2324 chars -> 2324 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 273 chars -> 221 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 273 chars -> 221 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 261 chars -> 237 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 261 chars -> 237 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 241 chars -> 207 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 241 chars -> 207 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 283 chars -> 251 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 283 chars -> 251 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 256 chars -> 225 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 256 chars -> 225 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 262 chars -> 233 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 262 chars -> 233 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 249 chars -> 230 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 249 chars -> 230 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 227 chars -> 199 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 227 chars -> 199 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 219 chars -> 184 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 219 chars -> 184 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 216 chars -> 190 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 216 chars -> 190 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 313 chars -> 254 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 313 chars -> 254 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 1289 chars -> 1289 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 1289 chars -> 1289 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 273 chars -> 221 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 273 chars -> 221 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 261 chars -> 237 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 261 chars -> 237 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 241 chars -> 207 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 241 chars -> 207 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 283 chars -> 251 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 283 chars -> 251 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 256 chars -> 225 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 256 chars -> 225 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 262 chars -> 233 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 262 chars -> 233 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 249 chars -> 230 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 249 chars -> 230 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 227 chars -> 199 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 227 chars -> 199 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 219 chars -> 184 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 219 chars -> 184 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 216 chars -> 190 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 216 chars -> 190 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 313 chars -> 254 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 313 chars -> 254 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 2544 chars -> 2544 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 2544 chars -> 2544 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 273 chars -> 221 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 273 chars -> 221 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 261 chars -> 237 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 261 chars -> 237 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 241 chars -> 207 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 241 chars -> 207 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 283 chars -> 251 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 283 chars -> 251 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 256 chars -> 225 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 256 chars -> 225 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 262 chars -> 233 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 262 chars -> 233 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 249 chars -> 230 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 249 chars -> 230 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 227 chars -> 199 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 227 chars -> 199 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 219 chars -> 184 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 219 chars -> 184 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 216 chars -> 190 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 216 chars -> 190 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 313 chars -> 254 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 313 chars -> 254 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 2315 chars -> 2315 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 2315 chars -> 2315 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 273 chars -> 221 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 273 chars -> 221 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 261 chars -> 237 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 261 chars -> 237 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 241 chars -> 207 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 241 chars -> 207 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 283 chars -> 251 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 283 chars -> 251 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 256 chars -> 225 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 256 chars -> 225 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 262 chars -> 233 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 262 chars -> 233 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 249 chars -> 230 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 249 chars -> 230 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 227 chars -> 199 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 227 chars -> 199 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 219 chars -> 184 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 219 chars -> 184 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 216 chars -> 190 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 216 chars -> 190 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 313 chars -> 254 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 313 chars -> 254 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 567 chars -> 567 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 567 chars -> 567 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 273 chars -> 221 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 273 chars -> 221 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 261 chars -> 237 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 261 chars -> 237 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 241 chars -> 207 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 241 chars -> 207 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 283 chars -> 251 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 283 chars -> 251 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 256 chars -> 225 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 256 chars -> 225 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 262 chars -> 233 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 262 chars -> 233 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 249 chars -> 230 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 249 chars -> 230 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 227 chars -> 199 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 227 chars -> 199 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 219 chars -> 184 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 219 chars -> 184 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 216 chars -> 190 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 216 chars -> 190 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 313 chars -> 254 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 313 chars -> 254 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 2429 chars -> 2429 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 2429 chars -> 2429 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 273 chars -> 221 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 273 chars -> 221 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 261 chars -> 237 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 261 chars -> 237 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 241 chars -> 207 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 241 chars -> 207 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 283 chars -> 251 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 283 chars -> 251 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 256 chars -> 225 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 256 chars -> 225 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 262 chars -> 233 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 262 chars -> 233 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 249 chars -> 230 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 249 chars -> 230 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 227 chars -> 199 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 227 chars -> 199 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 219 chars -> 184 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 219 chars -> 184 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 216 chars -> 190 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 216 chars -> 190 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 313 chars -> 254 chars
+2026-03-27 12:26:32 | INFO     | clean_text: 313 chars -> 254 chars

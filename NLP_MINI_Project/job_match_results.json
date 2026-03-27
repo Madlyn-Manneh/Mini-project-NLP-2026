@@ -1,0 +1,81 @@
+{
+  "timestamp": "2026-03-27T14:21:51.074794",
+  "total_resumes_processed": 8,
+  "best_matches": [
+    {
+      "resume": "Abaidullah Seikh_Data Analyst.pdf",
+      "best_job": "Data Analyst",
+      "final_score": 1.0,
+      "cosine": 0.2849,
+      "boost": 0.75,
+      "skills_matched": [
+        "python",
+        "power bi",
+        "excel",
+        "tableau",
+        "sql"
+      ]
+    },
+    {
+      "resume": "Madlyn_Manneh_CV.pdf",
+      "best_job": "Machine Learning Engineer",
+      "final_score": 0.9453,
+      "cosine": 0.3453,
+      "boost": 0.6,
+      "skills_matched": [
+        "python",
+        "machine learning",
+        "deep learning",
+        "tensorflow"
+      ]
+    },
+    {
+      "resume": "administrative-assistant-resume-example.pdf",
+      "best_job": "AI Engineer",
+      "final_score": 0.385,
+      "cosine": 0.385,
+      "boost": 0.0,
+      "skills_matched": []
+    },
+    {
+      "resume": "entry-level-customer-service-resume-example.pdf",
+      "best_job": "AI Engineer",
+      "final_score": 0.249,
+      "cosine": 0.249,
+      "boost": 0.0,
+      "skills_matched": []
+    },
+    {
+      "resume": "entry-level-engineer-resume-example.pdf",
+      "best_job": "Machine Learning Engineer",
+      "final_score": 0.3676,
+      "cosine": 0.3676,
+      "boost": 0.0,
+      "skills_matched": []
+    },
+    {
+      "resume": "nursing-resume-example.pdf",
+      "best_job": "AI Engineer",
+      "final_score": 0.3181,
+      "cosine": 0.3181,
+      "boost": 0.0,
+      "skills_matched": []
+    },
+    {
+      "resume": "recent-graduate-nurse-resume-example-template.pdf",
+      "best_job": "Machine Learning Engineer",
+      "final_score": 0.3495,
+      "cosine": 0.3495,
+      "boost": 0.0,
+      "skills_matched": []
+    },
+    {
+      "resume": "teacher-resume-example-template.pdf",
+      "best_job": "AI Engineer",
+      "final_score": 0.3835,
+      "cosine": 0.3835,
+      "boost": 0.0,
+      "skills_matched": []
+    }
+  ]
+}

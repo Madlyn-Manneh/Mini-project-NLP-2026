@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Data Scientist",
+    "description": "We are seeking a Data Scientist with strong expertise in Python, SQL, Pandas, NumPy, Scikit-learn, TensorFlow or PyTorch. You will build and deploy machine learning models, perform advanced data analysis, work on NLP projects, and use Docker and AWS for model deployment and scaling."
+  },
+  {
+    "title": "Data Analyst",
+    "description": "We need a Data Analyst skilled in Python, SQL, Excel, Power BI, Tableau, and data visualization techniques. Responsibilities include data cleaning, building interactive dashboards, generating business insights from large datasets, and presenting findings to stakeholders."
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "description": "Looking for a Machine Learning Engineer experienced in Python, PyTorch, TensorFlow, deep learning, MLOps, Docker, Kubernetes, and cloud platforms (AWS or Azure). You will design, train, optimize, and deploy scalable ML models into production environments."
+  },
+  {
+    "title": "AI Engineer",
+    "description": "We are hiring an AI Engineer to design, develop, and implement artificial intelligence systems. Strong skills required in Python, machine learning algorithms, neural networks, TensorFlow or PyTorch, data preprocessing, model evaluation, and integrating AI solutions into business applications."
+  },
+  {
+    "title": "Data Engineer",
+    "description": "Seeking a Data Engineer to build and maintain scalable data pipelines and infrastructure. Expertise needed in Python, SQL, ETL processes, Spark, Hadoop, AWS or Azure cloud services, data modeling, and ensuring high data quality and availability for analytics teams."
+  },
+  {
+    "title": "DevOps Engineer",
+    "description": "We need a DevOps Engineer to bridge development and operations. Key skills include CI/CD pipelines, infrastructure as code (Terraform or Ansible), Docker, Kubernetes, AWS/Azure cloud, Linux, Git, monitoring tools, and automating deployments to improve reliability and speed."
+  },
+  {
+    "title": "Web Developer",
+    "description": "Frontend-focused Web Developer role requiring strong proficiency in HTML, CSS, JavaScript, React, TypeScript, responsive design, and Git. Experience with modern frameworks, UI/UX best practices, and building high-performance web applications is highly valued."
+  },
+  {
+    "title": "Backend Developer",
+    "description": "Backend Developer position needing expertise in Python (Django or Flask), Node.js, SQL databases (PostgreSQL), RESTful APIs, MongoDB, Docker, and cloud services. You will design scalable server-side logic and integrate with frontend teams."
+  },
+  {
+    "title": "Full Stack Developer",
+    "description": "Full Stack Developer required with skills in JavaScript, React, Node.js or Python (Django/Flask), SQL, Git, and end-to-end application development. You will build complete web applications from database design to user interface."
+  },
+  {
+    "title": "Software Engineer",
+    "description": "Software Engineer role focused on writing clean, efficient code in Python, Java, or C++. Strong problem-solving skills, knowledge of algorithms and data structures, Git, Linux, and agile development methodologies are essential."
+  },
+  {
+    "title": "Technical Product Manager",
+    "description": "We are looking for a Technical Product Manager to define product vision and roadmap for technical products. You will collaborate with engineering teams, translate user needs into technical requirements, conduct market research, prioritize features, and ensure alignment between business goals and technical feasibility."
+  }
+]
